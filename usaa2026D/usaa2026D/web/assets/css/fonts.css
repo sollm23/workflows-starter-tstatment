@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'font1';
+  src: url(../fonts/font1.woff2);
+}
+@font-face {
+  font-family: 'font2';
+  src: url(../fonts/font2.woff2);
+}
+@font-face {
+  font-family: 'font3';
+  src: url(../fonts/font3.woff2);
+}
+@font-face {
+  font-family: 'Gotham Narrow';
+  src: url(../fonts/font4.woff2);
+}
+@font-face {
+  font-family: 'Mercury';
+  src: url(../fonts/font5.woff2);
+}

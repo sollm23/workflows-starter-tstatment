@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.without-ring {
+  @apply focus:ring-0 focus:ring-offset-0;
+}
+.without-outline {
+  @apply focus:outline-0 focus:outline-offset-0;
+}
+.btn-theme {
+  @apply rounded-md bg-purple-600 px-6 py-2 text-lg shadow-lg hover:bg-purple-700 hover:shadow-purple-950 focus:ring focus:ring-offset-2 text-white;
+}
+.gradient-theme {
+  @apply bg-gradient-to-r from-purple-950 via-cyan-900 to-violet-800;
+}
+
+body{
+  @apply font-GothamNarrow;
+}
+
+input[type=checkbox]{
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2725%27 height=%2724%27%3E%3Cpolygon fill=%27none%27 stroke=%27%2300668a%27 stroke-width=%272%27 points=%272,1 24,1 24,23 2,23%27 /%3E%3C/svg%3E");
+  
+}
+input[type=checkbox]:checked{
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2725%27 height=%2724%27%3E%3Cpolygon fill=%27none%27 stroke=%27%2300668a%27 stroke-width=%272%27 points=%272,1 24,1 24,23 2,23%27 /%3E%3Cpath fill=%27%2300668a%27 d=%27M18,6.7L11.6,13L8.1,9.6l-2.1,2.1l5.7,5.7l8.5-8.5%27 /%3E%3C/svg%3E");
+  
+}
+
+input[type=checkbox],
+input[type=checkbox]:checked{
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+ 
+}
